@@ -17,7 +17,7 @@
 
 즉, 스프링 컨테이너가 아닌 톰캣과 같은 웹 컨테이너에 의해 관리가 되는 것이고, 디스패처 서블릿 전/후에 처리하는 것이다.
 
-![Untitled](Filter%20vs%20Interceptor%202ce8d6a9a9b24f4ead3ee551b15b79b8/Untitled.png)
+![image](https://user-images.githubusercontent.com/92802207/190859353-7453b121-b705-4aaf-a931-03bed57366fc.png)
 
 ## 인터셉터(Interceptor)란?
 
@@ -27,7 +27,7 @@
 
 디스패처 서블릿은 핸들러 매핑을 통해 적절한 컨트롤러를 찾도록 요청하는데, 그 결과로 실행 체인을 돌려준다. 그래서 이 실행 체인은 1개 이상의 인터셉터가 등록되어 있다면 순차적으로 인터셉터들을 거쳐 컨트롤러가 실행되도록 하고, 인터셉터가 없다면 바로 컨트롤러를 실행한다.
 
-![Untitled](Filter%20vs%20Interceptor%202ce8d6a9a9b24f4ead3ee551b15b79b8/Untitled%201.png)
+![image](https://user-images.githubusercontent.com/92802207/190859371-f8d54f29-b974-47ab-8513-b54090281fc8.png)
 
 ## 인터셉터와 AOP의 비교
 
@@ -43,7 +43,7 @@
 
 필터와 인터셉터는 각각이 관리되는 컨터에너와 Request/Response의 조작 가능 여부가 다르고, 그에 따라 용도가 다르다.
 
-![Untitled](Filter%20vs%20Interceptor%202ce8d6a9a9b24f4ead3ee551b15b79b8/Untitled%202.png)
+![image](https://user-images.githubusercontent.com/92802207/190859393-9fd9b87d-489b-4012-b782-1e4a76e4f2c2.png)
 
 ### 필터의 용도
 
